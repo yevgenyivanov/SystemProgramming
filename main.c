@@ -24,24 +24,24 @@ int main(){
                 break;
             
             case 'B':
-                scanf(" %d", &i_value);
-                scanf(" %d", &j_value);
+                scanf("%d", &i_value);
+                scanf("%d", &j_value);
                 if(find_path(user_matrix, i_value, j_value) == 1){
-                    printf("True!\n");
+                    printf("True\n");
                     i_value=0;
                     j_value=0;
                     break;
                 }
                 else{
-                    printf("False!\n");
+                    printf("False\n");
                     i_value=0;
                     j_value=0;
                     break;
                 }
 
             case 'C':
-                scanf(" %d", &i_value);
-                scanf(" %d", &j_value);
+                scanf("%d", &i_value);
+                scanf("%d", &j_value);
                 printf("%d\n", min_path(user_matrix, i_value, j_value));
                 i_value=0;
                 j_value=0;
