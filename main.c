@@ -20,7 +20,6 @@ int main(){
             //after recieving all values, a helper function in my_mat.c builds the missing paths and minimizes them
             case 'A':
                 matrix_insertion(user_matrix);
-                printf("\n");
                 break;
             
             case 'B':
